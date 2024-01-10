@@ -1,0 +1,29 @@
+.circle {
+    height: 80px;
+    width: 80px;
+    background: brown; 
+    border-radius: 50%; 
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.line {
+    position: absolute;
+    background-color: brown;
+    /* Blue color */
+    height: 2px;
+    transform-origin: 0 50%;
+}
+#parent {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}
+.circle {
+    z-index: 9
+}
+.line {
+    z-index: 0;
+}
